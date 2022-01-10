@@ -1,4 +1,4 @@
-# Osteoporosis classification
+# Osteoarhritis_classification
 
  it is a readme for dicom image kl-classification software.
 
