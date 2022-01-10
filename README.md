@@ -7,7 +7,9 @@
 ### version 1: the command line version
  step 1: go to the exe folder , for example: /image_final_pipeline
  step 2: type in the command line:
+ ```
 ./image_final_pipeline --img-name --png-path --txt-path
+```
 
 notice:
 --img-name: the path and the name of the dicom image
@@ -24,7 +26,9 @@ for exmaple:
 ### version 2: the GUI version
 step1： go to the exe folder, for example: /image_final_gui
 step2: type in the command line:
+```
 ./image_final_gui
+```
 
 step3: it will generate a window with two button on the top, then click "import" to import the dicom image
 
@@ -36,9 +40,13 @@ step5: click "save" button to choose the path to save the png and txt result
  step1: setup docker environment on linux
  step2: go to root folder 
 ### version 1: 
-run command: python image_final_gui.py 
- 
+run command: 
+```
+python image_final_gui.py 
+```
 ### version 2:
-run: python image_final_pipeline.py
-
+run: 
+```
+python image_final_pipeline.py
+```
 
