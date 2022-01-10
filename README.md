@@ -1,4 +1,4 @@
-# Knee_project
+# Osteoporosis classification
 
  it is a readme for dicom image kl-classification software.
 
