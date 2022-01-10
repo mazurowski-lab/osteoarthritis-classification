@@ -15,11 +15,12 @@ notice:
 --txt-path: save the result in an txt file
 
 for exmaple:
+'''
 ./image_final_pipeline \
 --img-name "102451" \
 --png-path "img_folder/result.png" \
 --txt-path "txt_folder/result.txt" \
-
+'''
 
 ### version 2: the GUI version
 step1： go to the exe folder, for example: /image_final_gui
