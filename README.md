@@ -47,6 +47,6 @@ python image_final_gui.py
 ### version 2:
 run: 
 ```
-python image_final_pipeline.py
+python image_final_pipeline.py  --img-name --png-path --txt-path
 ```
 
