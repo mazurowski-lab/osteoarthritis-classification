@@ -6,6 +6,7 @@
 
 ### version 1: the command line version
  step 1: go to the exe folder , for example: /image_final_pipeline
+ 
  step 2: type in the command line:
  ```
 ./image_final_pipeline --img-name --png-path --txt-path
