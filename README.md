@@ -36,7 +36,7 @@ step4: wait for about 30 seconds, the result will show on window.
 
 step5: click "save" button to choose the path to save the png and txt result.
 
-## run source code under python environment 
+## run source code under docker environment 
  step1: setup docker environment on linux.
  step2: go to root folder.
 ### version 1: 
