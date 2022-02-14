@@ -46,7 +46,7 @@ step 5: click "save" button to choose the path to save the png and txt result.
 
 
 ## run source code under docker environment 
- step1: setup docker environment on linux.
+ step 1: setup docker environment on linux.
   run dockerfile, modify the path under run_anydevice.sh, and use command line to run the bashfile.
  ```
  export DOCKER_DIRECTORY='path to test_folder'
@@ -67,7 +67,7 @@ $DOCKER_IMG
 
 docker exec -it $CONTAINER_NAME /bin/bash
  ```
- step2: go to the root folder.
+ step 2: go to the root folder.
 ### version 1: 
 run command: 
 ```
