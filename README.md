@@ -36,11 +36,14 @@ step2: type in the command line:
 ./image_final_gui
 ```
 
-step3: it will generate a window with two button on the top, then click "import" to import the dicom image.
+step3: it will generate a window with two button on the top (The display is shown below), then click "import" to import the dicom image.
 
 step4: wait for about 30 seconds, the result will show on window.
 
-step5: click "save" button to choose the path to save the png and txt result.
+step5: click "save" button to choose the path to save the png and txt result. 
+
+![9809967](https://user-images.githubusercontent.com/39239103/153900897-ad8e4ec2-f794-4674-a512-50436b383fc4.png)
+
 
 ## run source code under docker environment 
  step1: setup docker environment on linux.
