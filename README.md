@@ -36,7 +36,7 @@ step 2: type in the command line:
 ./image_final_gui
 ```
 
-step 3: it will generate a window with two button on the top (The GUI is shown below), then click "import" to import the dicom image.
+step 3: it will generate a window with two button on the top (The GUI is shown below, the blue contor is the segmentation results and the red lines are the joint space distance on both medial side and lateral side), then click "import" to import the dicom image.
 
 step 4: wait for about 30 seconds, the results will show on window. 
 
