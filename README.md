@@ -6,6 +6,7 @@ This repository offers executable software on visualization (GUI) versions for a
 
 Besides the executable version, we also offer source codes as well as dockerfile and python environment requirements. We are welcome any further developments and modifications following our non-commercial use license.
  
+ Developed by Hanxue Gu.
 
 ## run executable version of software (no python enviroment required).
 
