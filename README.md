@@ -52,7 +52,7 @@ step 5: click "save" button to choose the path to save the png and txt result.
  ```
  export DOCKER_DIRECTORY='path to test_folder'
 export PROJECT_DIRECTORY='path to test_folder'
-export DOCKER_IMG=keyu_image_new
+export DOCKER_IMG=image_new
 export CONTAINER_NAME=knee_project_container_new
 export DATA_FOLDER='where the test_images is'
 
