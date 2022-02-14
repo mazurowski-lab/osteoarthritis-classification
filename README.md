@@ -1,11 +1,16 @@
-# Osteoarhritis_classification
+# Osteoarthritis_classification
 
- it is a readme for dicom image kl-classification software.
+This is a software developed for Osteoarthritis classification under paper: Automated grading of Radiographic Knee Osteoarthritis Severity combing with Joint space narrowing. After importing a knee X-ray raw image of the Posterior-Anterior (PA) view, this software will automatically grade knee osteoarthritis severity (KOA), knee joint detection, knee bone segmentation, and a joint spacing narrowing grading.
+
+This repository offers executable software on visualization (GUI) versions for an individual case display and a non-display performance for multiple cases processing. In addition, this executable software is user-friendly and requires no coding background and python environments; we believe these could work as a reference and learning software for radiologists' daily diagnosis.
+
+Besides the executable version, we also offer source codes as well as dockerfile and python environment requirements. We are welcome any further developments and modifications following our non-commercial use license.
+ 
 
 ## run executable version of software (no python enviroment required).
 
-### version 1: the command line version
- step 1: go to the exe folder , for example: /image_final_pipeline
+### version 1: the non-dislay version
+ step 1: go to the exe folder , for example: path to /image_final_pipeline
  
  step 2: type in the command line:
  ```
@@ -13,7 +18,7 @@
 ```
 
 notice:
---img-name: the path and the name of the dicom image.
+--img-name: the path and the name of the dicom image. (** we also support png image version now is raw dicom file is not available)
 --png-path: the path to save the result as an png image.
 --txt-path: save the result in an txt file.
 
@@ -39,7 +44,27 @@ step5: click "save" button to choose the path to save the png and txt result.
 
 ## run source code under docker environment 
  step1: setup docker environment on linux.
- step2: go to root folder.
+  run dockerfile, modify the path under run_anydevice.sh, and use command line to run the bashfile.
+ ```
+ export DOCKER_DIRECTORY='path to test_folder'
+export PROJECT_DIRECTORY='path to test_folder'
+export DOCKER_IMG=keyu_image_new
+export CONTAINER_NAME=knee_project_container_new
+export DATA_FOLDER='where the test_images is'
+
+cd $DOCKER_DIRECTORY 
+docker build -t $DOCKER_IMG -f Dockerfile .
+nvidia-docker run -d -it \
+--name $CONTAINER_NAME \
+--shm-size=14g \
+-v $DOCKER_DIRECTORY:/Dockerspace \
+-v $PROJECT_DIRECTORY:/workspace \
+-v $DATA_FOLDER:/data \
+$DOCKER_IMG
+
+docker exec -it $CONTAINER_NAME /bin/bash
+ ```
+ step2: go to the root folder.
 ### version 1: 
 run command: 
 ```
