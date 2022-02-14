@@ -1,6 +1,6 @@
 # Osteoarthritis_classification
 
-This is a software developed for Osteoarthritis classification under paper: Automated grading of Radiographic Knee Osteoarthritis Severity combing with Joint space narrowing. After importing a knee X-ray raw image of the Posterior-Anterior (PA) view, this software will automatically grade knee osteoarthritis severity (KOA), knee joint detection, knee bone segmentation, and a joint spacing narrowing grading.
+This is a software developed for Osteoarthritis classification under paper: **Automated grading of Radiographic Knee Osteoarthritis Severity combing with Joint space narrowing**. After importing a knee X-ray raw image of the Posterior-Anterior (PA) view, this software will automatically grade knee osteoarthritis severity (KOA), knee joint detection, knee bone segmentation, and a joint spacing narrowing grading.
 
 This repository offers executable software on visualization (GUI) versions for an individual case display and a non-display performance for multiple cases processing. In addition, this executable software is user-friendly and requires no coding background and python environments; we believe these could work as a reference and learning software for radiologists' daily diagnosis.
 
