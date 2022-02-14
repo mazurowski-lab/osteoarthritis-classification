@@ -31,6 +31,7 @@ for exmaple:
 ```
 ### version 2: the GUI version
 step 1： go to the exe folder, for example: /image_final_gui
+
 step 2: type in the command line:
 ```
 ./image_final_gui
