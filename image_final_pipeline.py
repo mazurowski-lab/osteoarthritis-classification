@@ -39,7 +39,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="KL classifier")
-    parser.add_argument("--img-name", default="/MOST/MOST data_May 2018/MOST-KXR/M0128_BETB/V0/10245/PA10/102451", type=str, help="Path to test image")
+    parser.add_argument("--img-name", default="None", type=str, help="Path to test image")
     parser.add_argument("--png-path", default="None", type=str, help="Path to save image")
     parser.add_argument("--txt-path", default="None", type=str, help="Path to save image")
     parser.add_argument("--narrow-type", default="lower_upper_mean", type=str, help = "the method to calculate narrowing distance")
