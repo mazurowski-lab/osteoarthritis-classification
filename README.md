@@ -81,6 +81,17 @@ run:
 python image_final_pipeline.py  --img-name --png-path --txt-path
 ```
 
+### pack the project and build an executable version (for developers)
+If you make some modifications on the source codes and want to bundle them into an updated executable version, you could use *pyinstaller*
+```
+pip install pyinstaller
+```
+
+Then modify the pathex under *.spec file and then pack the software by yourself, for example
+```
+pyinstaller image_final_gui.spec
+```
+
 ## Citation
 ```
 ```
