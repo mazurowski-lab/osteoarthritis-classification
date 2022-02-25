@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['image_final_pipeline.py'],
-             pathex=['/Users/hanxuegu/Downloads/image_final_pipeline'],
+             pathex=['/path to/image_final_pipeline'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -17,10 +17,10 @@ a = Analysis(['image_final_pipeline.py'],
              noarchive=False)
 
 
-dict_modelfiles = Tree('/Users/hanxuegu/Downloads/image_final_pipeline/model_files')
+dict_modelfiles = Tree('/path to/image_final_pipeline/model_files')
 a.datas += dict_modelfiles
 
-dict_utils = Tree('/Users/hanxuegu/Downloads/image_final_pipeline/utils')
+dict_utils = Tree('/path to/image_final_pipeline/utils')
 a.datas += dict_utils
 
 

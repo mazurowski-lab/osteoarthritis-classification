@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['image_final_gui.py'],
-             pathex=['/Users/hanxuegu/Downloads/image_final_gui'],
+             pathex=['/path to /image_final_gui'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -17,10 +17,10 @@ a = Analysis(['image_final_gui.py'],
              noarchive=False)
 
 
-dict_modelfiles = Tree('/Users/hanxuegu/Downloads/image_final_gui/model_files')
+dict_modelfiles = Tree('/path to /image_final_gui/model_files')
 a.datas += dict_modelfiles
 
-dict_utils = Tree('/Users/hanxuegu/Downloads/image_final_gui/utils')
+dict_utils = Tree('/path to /image_final_gui/utils')
 a.datas += dict_utils
 
 
