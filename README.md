@@ -47,7 +47,7 @@ step 5: click "save" button to choose the path to save the png and txt result.
 
 ![9809967](https://user-images.githubusercontent.com/39239103/153900897-ad8e4ec2-f794-4674-a512-50436b383fc4.png)
 
-### for windows users
+### for Windows users
 step 1： go to the exe folder, for example: /image_final_gui
 
 step 2: type in the command line:
