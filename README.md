@@ -1,12 +1,11 @@
 # Osteoarthritis_classification
+This is a software developed for the classification of osteoarthritis. **Automatic grading of knee osteoarthritis severity combined with joint space narrowing**. After importing the original image of the posterior anterior view of the knee joint X-ray, the software automatically grades the severity of osteoarthritis of the knee (KOA) and provides knee joint detection, knee bone segmentation and joint space narrowing.
 
-This is a software developed for Osteoarthritis classification under paper: **Automated grading of Radiographic Knee Osteoarthritis Severity combing with Joint space narrowing**. After importing a knee X-ray raw image of the Posterior-Anterior (PA) view, this software will automatically grade knee osteoarthritis severity (KOA), knee joint detection, knee bone segmentation, and a joint spacing narrowing grading.
+This repository provides a visual (GUI) version of the executable software for display analysis of individual cases and non-display batch processing of multiple case treatments. In addition, this executable software is user-friendly and does not require a coding background or python environment; we believe these can be used as reference and learning software for radiologists in their daily diagnoses.
 
-This repository offers executable software on visualization (GUI) versions for an individual case display and a non-display performance for multiple cases processing. In addition, this executable software is user-friendly and requires no coding background and python environments; we believe these could work as a reference and learning software for radiologists' daily diagnosis.
-
-Besides the executable version, we also offer source codes as well as dockerfile and python environment requirements. We are welcome any further developments and modifications following our non-commercial use license.
+In addition to the executable version, we provide the source code as well as the dockerfile and python environment requirements. We welcome any further development and modifications under our non-commercial use license.
  
- Developed by Hanxue Gu.
+ Developed by: Hanxue Gu.
 
 ## run executable version of software (no python enviroment required).
 ### for Mac users
