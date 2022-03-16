@@ -9,8 +9,9 @@ Besides the executable version, we also offer source codes as well as dockerfile
  Developed by Hanxue Gu.
 
 ## run executable version of software (no python enviroment required).
+### for Mac users
 
-### version 1: the non-dislay version
+#### version 1: the non-dislay version
  step 1: go to the exe folder , for example: path to /image_final_pipeline
  
  step 2: type in the command line:
@@ -30,7 +31,7 @@ for exmaple:
 --png-path "img_folder/result.png" \
 --txt-path "txt_folder/result.txt" \
 ```
-### version 2: the GUI version
+#### version 2: the GUI version
 step 1： go to the exe folder, for example: /image_final_gui
 
 step 2: type in the command line:
@@ -46,6 +47,14 @@ step 5: click "save" button to choose the path to save the png and txt result.
 
 ![9809967](https://user-images.githubusercontent.com/39239103/153900897-ad8e4ec2-f794-4674-a512-50436b383fc4.png)
 
+### for windows users
+step 1： go to the exe folder, for example: /image_final_gui
+
+step 2: type in the command line:
+```
+image_final_gui.exe
+```
+the next steps are the same as Mac version.
 
 ## run source code under docker environment 
  step 1: setup docker environment on linux.
