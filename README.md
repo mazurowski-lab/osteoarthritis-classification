@@ -102,5 +102,23 @@ pyinstaller image_final_gui.spec
 
 ## Citation
 ```
+@misc{https://doi.org/10.48550/arxiv.2203.08914,
+  doi = {10.48550/ARXIV.2203.08914},
+  
+  url = {https://arxiv.org/abs/2203.08914},
+  
+  author = {Gu, Hanxue and Li, Keyu and Colglazier, Roy J. and Yang, Jichen and Lebhar, Michael and O'Donnell, Jonathan and Jiranek, William A. and Mather, Richard C. and French, Rob J. and Said, Nicholas and Zhang, Jikai and Park, Christine and Mazurowski, Maciej A.},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Automated Grading of Radiographic Knee Osteoarthritis Severity Combined with Joint Space Narrowing},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
+
 ```
 
